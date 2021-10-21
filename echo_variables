@@ -1,6 +1,12 @@
 #!/bin/bash
 
-echo "$BASH"
-echo "$BASH_VERSION"
-echo "$HOME"
-echo "$PWD"
+echo shell is "$BASH"
+echo shell version is "$BASH_VERSION"
+echo home directory is "$HOME"
+echo working directory is "$PWD"
+
+val=10
+my_var="hello"
+
+echo $my_var
+echo $val
