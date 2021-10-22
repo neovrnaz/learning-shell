@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Enter names: "
+read -a name_arr
+
+echo "Name 1: ${name_arr[0]}"
+
+# This will output to the $REPLY variable
+read
+echo $REPLY

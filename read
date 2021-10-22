@@ -1,0 +1,5 @@
+#!/bin/bash
+
+read -p "Name: " -r name
+read -sp "Password: " -r password
+echo "Hello $name!"
