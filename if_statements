@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#count=10
+#num=9
+#if [ $count -eq $num ]; then
+#  echo true
+#else
+#  echo false
+#fi
+
+
+read -r -p "Please create your password: " password
+if [[ "$password" == "abc" ]]
+then
+  echo "That password is too easy!"
+else if [[ "$password"   ]]
+else
+  echo "password set"
+fi

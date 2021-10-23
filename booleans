@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# (There are no booleans in bash)
+
+# These are considered true:
+#true
+#[ 0 ]
+#[ 1 ]
+#[ 'a' ]
+#[ '' ]
+#[ $x ]
+
+# instead, use a string
+str=true
+if [[ ${str} == "true" ]]; then
+  echo "this is true"
+else
+  echo "this is false"
+fi
