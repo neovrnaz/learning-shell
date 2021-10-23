@@ -12,7 +12,7 @@
 
 # instead, use a string
 str=true
-if [[ ${str} == "true" ]]; then
+if [[ ${str} == "false" ]]; then
   echo "this is true"
 else
   echo "this is false"
