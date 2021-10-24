@@ -1,0 +1,19 @@
+#!/bin/bash
+
+function my_func() {
+  local my_arg
+  read -r -p "Enter arg please: " my_arg
+  echo "$my_arg"
+}
+
+function echo_read_arg() {
+    echo "$@"
+}
+
+function main() {
+  local arg
+  arg=$(my_func)
+  echo "$arg"
+}
+
+main

@@ -9,11 +9,16 @@
 #fi
 
 
-read -r -p "Please create your password: " password
-if [[ "$password" == "abc" ]]
-then
-  echo "That password is too easy!"
-else if [[ "$password"   ]]
+#read -r -p "Please create your password: " password
+#if [[ "$password" == "abc" ]]
+#then
+#  echo "That password is too easy!"
+#fi
+
+word=a
+
+if [[ $word == "b" ]]; then
+  echo "this condition is true"
 else
-  echo "password set"
+  echo "this condition is false"
 fi
