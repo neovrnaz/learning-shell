@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "hello $(echo "hello" $(echo "hello"))"
+
+str=hello
+echo "$(str="hello there"; echo "$str")"

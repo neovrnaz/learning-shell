@@ -1,0 +1,14 @@
+#!/bin/bash
+
+word="hello"
+word2="there"
+
+set $word
+echo "$1 $2 $3 $4 $5"
+
+set $word2
+echo "$1"
+echo "$2"
+echo "$3"
+echo "$4"
+echo "$5"
